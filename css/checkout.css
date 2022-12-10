@@ -1,0 +1,33 @@
+#form {
+    background-color: pink;
+    padding: 1rem;
+    border-radius: 8%;
+
+}
+
+.form__items {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.grupo {
+    margin: .8rem;
+}
+
+.form__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#button__pagar {
+    align-self: flex-end;
+    margin: 5%;
+    width: 30%;
+}
+
+.producto__items {
+    margin: 1rem;
+    background-color: black;
+}
